@@ -1,0 +1,6 @@
+framework module Brundlefly {
+  umbrella header "Brundlefly-umbrella.h"
+
+  export *
+  module * { export * }
+}
