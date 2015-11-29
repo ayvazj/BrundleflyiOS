@@ -1,4 +1,4 @@
-# Brundlefly
+# Brundlefly for iOS
 
 [![CI Status](http://img.shields.io/travis/James Ayvaz/Brundlefly.svg?style=flat)](https://travis-ci.org/James Ayvaz/Brundlefly)
 [![Version](https://img.shields.io/cocoapods/v/Brundlefly.svg?style=flat)](http://cocoapods.org/pods/Brundlefly)
