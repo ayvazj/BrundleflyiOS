@@ -25,7 +25,7 @@ class BtfyJson {
     static let positionProps = BtfyPropertyParserKeyframePosition()
     static let rotationProps = BtfyPropertyParserKeyframeRotation()
     static let scaleProps = BtfyPropertyParserKeyframeScale();
-    static let opacityProps  = BtfyPropertyParserKeyframeOpactity()
+    static let opacityProps  = BtfyPropertyParserKeyframeOpacity()
     
     static func parseSize(json: [String:AnyObject]) throws -> BtfySize {
         guard let width = json["width"] as? Int else {

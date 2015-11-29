@@ -20,7 +20,7 @@
 * THE SOFTWARE.
 */
 
-class BtfyPropertyParserKeyframeOpactity : BtfyPropertyParserKeyframe {
+class BtfyPropertyParserKeyframeOpacity : BtfyPropertyParserKeyframe {
     override func parseProperty(json: [AnyObject]) throws -> Any {
         return Double(json[1] as! Double);
     }
