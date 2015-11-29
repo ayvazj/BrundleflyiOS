@@ -24,11 +24,11 @@ iOS apps bundle files.  Then these animations can be played from the exported fi
 having to write any code.
                        DESC
 
-  s.homepage         = "https://github.com/ayvazj/Brundlefly"
+  s.homepage         = "https://github.com/ayvazj/BrundleflyiOS"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "James Ayvaz" => "james.ayvaz@gmail.com" }
-  s.source           = { :git => "https://github.com/ayvazj/Brundlefly.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/ayvazj/BrundleflyiOS.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/jamesayvaz'
 
   s.platform     = :ios, '8.0'
