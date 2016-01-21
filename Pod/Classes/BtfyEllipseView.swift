@@ -21,5 +21,19 @@
 */
 
 class BtfyEllipseView : UIView {
-    
+
+    override var bounds: CGRect {
+        didSet {
+            let shape = CAShapeLayer(layer: self.layer)
+            
+            var center = CGPoint()
+            center.x = self.bounds.origin.x + self.bounds.size.width / 2.0
+            center.y = self.bounds.origin.y + self.bounds.size.height / 2.0
+            let radius = (min(bounds.size.width, bounds.size.height) / 2.0)
+            let path = UIBezierPath.init(arcCenter: center, radius: CGFloat(radius), startAngle: CGFloat(0), endAngle: CGFloat(Float(M_PI) * 2.0), clockwise: true)
+            
+            shape.path = path.CGPath
+            self.layer.mask = shape
+        }
+    }
 }
