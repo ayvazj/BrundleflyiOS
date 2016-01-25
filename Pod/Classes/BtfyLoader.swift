@@ -32,24 +32,25 @@ class BtfyLoader {
             do {
                 let json = try NSJSONSerialization.JSONObjectWithData(NSFileManager.defaultManager().contentsAtPath(path!)!, options: []) as! [String:AnyObject]
                 
-                let type = json["type"] as? String
-                if type == nil || !(type == "stage") {
+                guard let type = json["type"] as? String else {
+                    throw BtfyError.ParseError(msg: "Stage type is missing.")
+                }
+                
+                if !(type == "stage") {
                     throw BtfyError.ParseError(msg: "Unexpected stage type: \(type)")
                 }
                 
                 
-                let size  = json["size"] as? [String:AnyObject]
-                if size == nil {
+                guard let size  = json["size"] as? [String:AnyObject] else {
                     throw BtfyError.ParseError(msg: "Stage is missing size.")
                 }
                 
-                let animationList  = json["animations"] as? [[String:AnyObject]]
-                if animationList == nil  {
+                guard let animationList  = json["animations"] as? [[String:AnyObject]] else {
                     throw BtfyError.ParseError(msg: "Stage is missing animations.")
                 }
                 
                 var animationGroups : [BtfyAnimationGroup] = []
-                for animationGroup in animationList! {
+                for animationGroup in animationList {
                     do {
                         if let group = try BtfyJson.parseAnimationGroup(animationGroup) {
                             animationGroups.append(group);
@@ -61,7 +62,7 @@ class BtfyLoader {
                 }
                 
                 do {
-                    return try BtfyStage(sizeInfo: BtfyJson.parseSize(size!), animationGroups: animationGroups)
+                    return try BtfyStage(sizeInfo: BtfyJson.parseSize(size), animationGroups: animationGroups)
                 }
                 catch let err as NSError {
                     throw err

@@ -109,31 +109,31 @@
 		E2FBD93D72DF01427486D1A6853FC689 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EBCAB8EBE519908483A437F0A5302 /* Expectation.swift */; };
 		E36C5201AE7F1CBB25F9D2E7CBFC3C20 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB318CBB3A1FAC64DA8D4F403127956C /* Match.swift */; };
 		E6E7B15FAD6C56681511813DB2666478 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469EEA828792C10E022D4BDE6B3CF9F5 /* AssertionRecorder.swift */; };
-		EAC18FDD1C0A08AA00433490 /* BtfyAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FD71C0A08AA00433490 /* BtfyAnimationView.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC18FDE1C0A08AA00433490 /* BtfyEllipseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FD81C0A08AA00433490 /* BtfyEllipseView.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC18FDF1C0A08AA00433490 /* BtfyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FD91C0A08AA00433490 /* BtfyError.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC18FE01C0A08AA00433490 /* BtfyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FDA1C0A08AA00433490 /* BtfyLoader.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC18FE11C0A08AA00433490 /* BtfyRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FDB1C0A08AA00433490 /* BtfyRectangleView.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC18FE21C0A08AA00433490 /* BtfyJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FDC1C0A08AA00433490 /* BtfyJson.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC18FEA1C0A08D100433490 /* Double+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FE51C0A08D100433490 /* Double+Math.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC18FEB1C0A08D100433490 /* NSBundle+pathForResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FE61C0A08D100433490 /* NSBundle+pathForResource.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC18FEC1C0A08D100433490 /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FE71C0A08D100433490 /* String+Localization.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC18FED1C0A08D100433490 /* UIColor+BtfyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FE81C0A08D100433490 /* UIColor+BtfyColor.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC18FEE1C0A08D100433490 /* UIView+AssociatedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FE91C0A08D100433490 /* UIView+AssociatedObject.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC18FFD1C0A08DB00433490 /* BtfyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FEF1C0A08DB00433490 /* BtfyAnimation.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC18FFE1C0A08DB00433490 /* BtfyAnimationGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FF01C0A08DB00433490 /* BtfyAnimationGroup.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC18FFF1C0A08DB00433490 /* BtfyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FF11C0A08DB00433490 /* BtfyColor.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC190001C0A08DB00433490 /* BtfyInitialValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FF21C0A08DB00433490 /* BtfyInitialValues.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC190011C0A08DB00433490 /* BtfyKeyframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FF31C0A08DB00433490 /* BtfyKeyframe.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC190021C0A08DB00433490 /* BtfyPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FF41C0A08DB00433490 /* BtfyPoint.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC190031C0A08DB00433490 /* BtfyPropertyParserKeyframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FF51C0A08DB00433490 /* BtfyPropertyParserKeyframe.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC190041C0A08DB00433490 /* BtfyPropertyParserKeyframeOpactity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FF61C0A08DB00433490 /* BtfyPropertyParserKeyframeOpactity.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC190051C0A08DB00433490 /* BtfyPropertyParserKeyframePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FF71C0A08DB00433490 /* BtfyPropertyParserKeyframePosition.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC190061C0A08DB00433490 /* BtfyPropertyParserKeyframeRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FF81C0A08DB00433490 /* BtfyPropertyParserKeyframeRotation.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC190071C0A08DB00433490 /* BtfyPropertyParserKeyframeScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FF91C0A08DB00433490 /* BtfyPropertyParserKeyframeScale.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC190081C0A08DB00433490 /* BtfyShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FFA1C0A08DB00433490 /* BtfyShape.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC190091C0A08DB00433490 /* BtfySize.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FFB1C0A08DB00433490 /* BtfySize.swift */; settings = {ASSET_TAGS = (); }; };
-		EAC1900A1C0A08DB00433490 /* BtfyStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FFC1C0A08DB00433490 /* BtfyStage.swift */; settings = {ASSET_TAGS = (); }; };
+		EA9736081C55F0790011C4DE /* BtfyPropertyParserKeyframeOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9736071C55F0790011C4DE /* BtfyPropertyParserKeyframeOpacity.swift */; };
+		EAC18FDD1C0A08AA00433490 /* BtfyAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FD71C0A08AA00433490 /* BtfyAnimationView.swift */; };
+		EAC18FDE1C0A08AA00433490 /* BtfyEllipseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FD81C0A08AA00433490 /* BtfyEllipseView.swift */; };
+		EAC18FDF1C0A08AA00433490 /* BtfyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FD91C0A08AA00433490 /* BtfyError.swift */; };
+		EAC18FE01C0A08AA00433490 /* BtfyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FDA1C0A08AA00433490 /* BtfyLoader.swift */; };
+		EAC18FE11C0A08AA00433490 /* BtfyRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FDB1C0A08AA00433490 /* BtfyRectangleView.swift */; };
+		EAC18FE21C0A08AA00433490 /* BtfyJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FDC1C0A08AA00433490 /* BtfyJson.swift */; };
+		EAC18FEA1C0A08D100433490 /* Double+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FE51C0A08D100433490 /* Double+Math.swift */; };
+		EAC18FEB1C0A08D100433490 /* NSBundle+pathForResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FE61C0A08D100433490 /* NSBundle+pathForResource.swift */; };
+		EAC18FEC1C0A08D100433490 /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FE71C0A08D100433490 /* String+Localization.swift */; };
+		EAC18FED1C0A08D100433490 /* UIColor+BtfyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FE81C0A08D100433490 /* UIColor+BtfyColor.swift */; };
+		EAC18FEE1C0A08D100433490 /* UIView+AssociatedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FE91C0A08D100433490 /* UIView+AssociatedObject.swift */; };
+		EAC18FFD1C0A08DB00433490 /* BtfyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FEF1C0A08DB00433490 /* BtfyAnimation.swift */; };
+		EAC18FFE1C0A08DB00433490 /* BtfyAnimationGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FF01C0A08DB00433490 /* BtfyAnimationGroup.swift */; };
+		EAC18FFF1C0A08DB00433490 /* BtfyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FF11C0A08DB00433490 /* BtfyColor.swift */; };
+		EAC190001C0A08DB00433490 /* BtfyInitialValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FF21C0A08DB00433490 /* BtfyInitialValues.swift */; };
+		EAC190011C0A08DB00433490 /* BtfyKeyframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FF31C0A08DB00433490 /* BtfyKeyframe.swift */; };
+		EAC190021C0A08DB00433490 /* BtfyPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FF41C0A08DB00433490 /* BtfyPoint.swift */; };
+		EAC190031C0A08DB00433490 /* BtfyPropertyParserKeyframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FF51C0A08DB00433490 /* BtfyPropertyParserKeyframe.swift */; };
+		EAC190051C0A08DB00433490 /* BtfyPropertyParserKeyframePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FF71C0A08DB00433490 /* BtfyPropertyParserKeyframePosition.swift */; };
+		EAC190061C0A08DB00433490 /* BtfyPropertyParserKeyframeRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FF81C0A08DB00433490 /* BtfyPropertyParserKeyframeRotation.swift */; };
+		EAC190071C0A08DB00433490 /* BtfyPropertyParserKeyframeScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FF91C0A08DB00433490 /* BtfyPropertyParserKeyframeScale.swift */; };
+		EAC190081C0A08DB00433490 /* BtfyShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FFA1C0A08DB00433490 /* BtfyShape.swift */; };
+		EAC190091C0A08DB00433490 /* BtfySize.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FFB1C0A08DB00433490 /* BtfySize.swift */; };
+		EAC1900A1C0A08DB00433490 /* BtfyStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FFC1C0A08DB00433490 /* BtfyStage.swift */; };
 		EDD91D0CC316AC322E1607D3749F1C0A /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = E1957A6F490F75CF4F5E65AE6F95B60D /* UIImage+Snapshot.m */; };
 		EE75BFF7CEB96127A821936D107A0183 /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0CE398ED47A90A49FD1D48ED4788C3 /* QCKDSL.m */; };
 		F10FD3129985704FA1610F84FB98EDF5 /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CF27DB4E86CF523DBB7718DD1F8A5D /* Stringers.swift */; };
@@ -356,6 +356,7 @@
 		E6F567A0F84D52EF356BEDCB9F4C9AE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E8AA8837A12B9D3429E4E09410BB4EEC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		E90473C7447B312C9C0AD27EE990A0CB /* Nimble-Snapshots-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-Snapshots-prefix.pch"; sourceTree = "<group>"; };
+		EA9736071C55F0790011C4DE /* BtfyPropertyParserKeyframeOpacity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BtfyPropertyParserKeyframeOpacity.swift; path = Model/BtfyPropertyParserKeyframeOpacity.swift; sourceTree = "<group>"; };
 		EAC18FD71C0A08AA00433490 /* BtfyAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BtfyAnimationView.swift; sourceTree = "<group>"; };
 		EAC18FD81C0A08AA00433490 /* BtfyEllipseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BtfyEllipseView.swift; sourceTree = "<group>"; };
 		EAC18FD91C0A08AA00433490 /* BtfyError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BtfyError.swift; sourceTree = "<group>"; };
@@ -374,7 +375,6 @@
 		EAC18FF31C0A08DB00433490 /* BtfyKeyframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BtfyKeyframe.swift; path = Model/BtfyKeyframe.swift; sourceTree = "<group>"; };
 		EAC18FF41C0A08DB00433490 /* BtfyPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BtfyPoint.swift; path = Model/BtfyPoint.swift; sourceTree = "<group>"; };
 		EAC18FF51C0A08DB00433490 /* BtfyPropertyParserKeyframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BtfyPropertyParserKeyframe.swift; path = Model/BtfyPropertyParserKeyframe.swift; sourceTree = "<group>"; };
-		EAC18FF61C0A08DB00433490 /* BtfyPropertyParserKeyframeOpactity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BtfyPropertyParserKeyframeOpactity.swift; path = Model/BtfyPropertyParserKeyframeOpactity.swift; sourceTree = "<group>"; };
 		EAC18FF71C0A08DB00433490 /* BtfyPropertyParserKeyframePosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BtfyPropertyParserKeyframePosition.swift; path = Model/BtfyPropertyParserKeyframePosition.swift; sourceTree = "<group>"; };
 		EAC18FF81C0A08DB00433490 /* BtfyPropertyParserKeyframeRotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BtfyPropertyParserKeyframeRotation.swift; path = Model/BtfyPropertyParserKeyframeRotation.swift; sourceTree = "<group>"; };
 		EAC18FF91C0A08DB00433490 /* BtfyPropertyParserKeyframeScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BtfyPropertyParserKeyframeScale.swift; path = Model/BtfyPropertyParserKeyframeScale.swift; sourceTree = "<group>"; };
@@ -816,6 +816,7 @@
 		EAC18FE31C0A08B700433490 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EA9736071C55F0790011C4DE /* BtfyPropertyParserKeyframeOpacity.swift */,
 				EAC18FEF1C0A08DB00433490 /* BtfyAnimation.swift */,
 				EAC18FF01C0A08DB00433490 /* BtfyAnimationGroup.swift */,
 				EAC18FF11C0A08DB00433490 /* BtfyColor.swift */,
@@ -823,7 +824,6 @@
 				EAC18FF31C0A08DB00433490 /* BtfyKeyframe.swift */,
 				EAC18FF41C0A08DB00433490 /* BtfyPoint.swift */,
 				EAC18FF51C0A08DB00433490 /* BtfyPropertyParserKeyframe.swift */,
-				EAC18FF61C0A08DB00433490 /* BtfyPropertyParserKeyframeOpactity.swift */,
 				EAC18FF71C0A08DB00433490 /* BtfyPropertyParserKeyframePosition.swift */,
 				EAC18FF81C0A08DB00433490 /* BtfyPropertyParserKeyframeRotation.swift */,
 				EAC18FF91C0A08DB00433490 /* BtfyPropertyParserKeyframeScale.swift */,
@@ -1181,12 +1181,12 @@
 				EAC190021C0A08DB00433490 /* BtfyPoint.swift in Sources */,
 				EAC18FFF1C0A08DB00433490 /* BtfyColor.swift in Sources */,
 				EAC190051C0A08DB00433490 /* BtfyPropertyParserKeyframePosition.swift in Sources */,
-				EAC190041C0A08DB00433490 /* BtfyPropertyParserKeyframeOpactity.swift in Sources */,
 				EAC190091C0A08DB00433490 /* BtfySize.swift in Sources */,
 				EAC1900A1C0A08DB00433490 /* BtfyStage.swift in Sources */,
 				EAC18FDE1C0A08AA00433490 /* BtfyEllipseView.swift in Sources */,
 				EAC18FDD1C0A08AA00433490 /* BtfyAnimationView.swift in Sources */,
 				EAC190081C0A08DB00433490 /* BtfyShape.swift in Sources */,
+				EA9736081C55F0790011C4DE /* BtfyPropertyParserKeyframeOpacity.swift in Sources */,
 				EAC18FFD1C0A08DB00433490 /* BtfyAnimation.swift in Sources */,
 				EAC18FEC1C0A08D100433490 /* String+Localization.swift in Sources */,
 				EAC190031C0A08DB00433490 /* BtfyPropertyParserKeyframe.swift in Sources */,

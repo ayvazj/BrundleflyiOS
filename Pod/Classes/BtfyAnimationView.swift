@@ -175,14 +175,13 @@ public class BtfyAnimationView: UIView {
                 var values : [Double] = []
                 var keys : [CGFloat] = []
                 var timings : [CAMediaTimingFunction] = []
-                for var i = 0; i < ani.keyframes.count; ++i {
-                    let keyframe = ani.keyframes[i]
+                for keyframe in ani.keyframes {
                     let val = keyframe.val as! Double
                     
                     values.append(val)
                     keys.append(CGFloat(keyframe.index))
                     timings.append(keyframe.timingFunction)
-                } // for var i = 0; i < ani.keyframes.count; ++i {
+                } // for keyframe in ani.keyframes {
                 
                 let opacityAnim = createKeyFrame(
                     "opacity",
@@ -197,14 +196,13 @@ public class BtfyAnimationView: UIView {
                 var values : [NSValue] = []
                 var keys : [CGFloat] = []
                 var timings : [CAMediaTimingFunction] = []
-                for var i = 0; i < ani.keyframes.count; ++i {
-                    let keyframe = ani.keyframes[i]
+                for keyframe in ani.keyframes {
                     let val = keyframe.val as! BtfyPoint
                     
                     values.append(NSValue(CGPoint: CGPoint(x: xRel(val.x), y: yRel(val.y))))
                     keys.append(CGFloat(keyframe.index))
                     timings.append(keyframe.timingFunction)
-                } // for var i = 0; i < ani.keyframes.count; ++i {
+                } // for keyframe in ani.keyframes {
                 
                 let posAnim = createKeyFrame(
                     "position",
@@ -220,14 +218,13 @@ public class BtfyAnimationView: UIView {
                 var values : [NSValue] = []
                 var keys : [CGFloat] = []
                 var timings : [CAMediaTimingFunction] = []
-                for var i = 0; i < ani.keyframes.count; ++i {
-                    let keyframe = ani.keyframes[i]
+                for keyframe in ani.keyframes {
                     let val = keyframe.val as! BtfyPoint
                     
                     values.append(NSValue(CGPoint: CGPoint(x: val.x, y: val.y)))
                     keys.append(CGFloat(keyframe.index))
                     timings.append(keyframe.timingFunction)
-                } // for var i = 0; i < ani.keyframes.count; ++i {
+                } // for keyframe in ani.keyframes {
                 
                 let scaleAnim = createKeyFrame(
                     "transform.scale",
@@ -243,14 +240,13 @@ public class BtfyAnimationView: UIView {
                 var values : [Double] = []
                 var keys : [CGFloat] = []
                 var timings : [CAMediaTimingFunction] = []
-                for var i = 0; i < ani.keyframes.count; ++i {
-                    let keyframe = ani.keyframes[i]
+                for keyframe in ani.keyframes {
                     let val = (keyframe.val as! Double).degreesToRadians
                     
                     values.append(val)
                     keys.append(CGFloat(keyframe.index))
                     timings.append(keyframe.timingFunction)
-                } // for var i = 0; i < ani.keyframes.count; ++i {
+                } // for keyframe in ani.keyframes {
                 
                 let rotationAnim = createKeyFrame(
                     "transform.rotation",

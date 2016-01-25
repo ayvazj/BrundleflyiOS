@@ -169,9 +169,7 @@ class BtfyJson {
         
         var animations : [BtfyAnimation] = []
         if let animationsList = json["animations"] as? [[String:AnyObject]]  {
-            for var i = 0; i < animationsList.count; ++i {
-                let animation = animationsList[i]
-                
+            for animation in animationsList {
                 let idStr = animation["id"] as! String?
                 let animTypeStr = animation["type"] as! String?
                 
@@ -252,8 +250,8 @@ class BtfyJson {
                 }
                 
                 
-                if animationObj != nil {
-                    animations.append(animationObj!)
+                if let animObj = animationObj {
+                    animations.append(animObj)
                 }
             }
         }

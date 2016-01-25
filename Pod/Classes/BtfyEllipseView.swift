@@ -21,7 +21,6 @@
 */
 
 class BtfyEllipseView : UIView {
-
     override var bounds: CGRect {
         didSet {
             let shape = CAShapeLayer(layer: self.layer)
