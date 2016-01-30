@@ -38,8 +38,9 @@ class ExamplesTableViewController : UITableViewController {
     }
     
     private func setup() -> Void {
-        animations.append((display: "Pinwheel", value:"photosPinwheel"))
-        animations.append((display: "Photos", value: "intro"))
+//        animations.append((display: "Pinwheel", value:"photosPinwheel"))
+//        animations.append((display: "Photos", value: "intro"))
+        animations.append((display: "animation1", value: "animation1"))
     }
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {

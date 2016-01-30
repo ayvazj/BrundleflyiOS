@@ -29,7 +29,7 @@ having to write any code.
   s.license          = 'MIT'
   s.author           = { "James Ayvaz" => "james.ayvaz@gmail.com" }
   s.source           = { :git => "https://github.com/ayvazj/BrundleflyiOS.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/jamesayvaz'
+  s.social_media_url = 'https://twitter.com/jamesayvaz'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true

@@ -13,11 +13,42 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-Brundlefly is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### CocoaPods
 
-```ruby
-pod "Brundlefly"
+Brundlefly is available through [CocoaPods](http://cocoapods.org).
+
+Install CocoaPods if not already available:
+
+``` bash
+$ [sudo] gem install cocoapods
+$ pod setup
+```
+
+Change to the directory of your Xcode project:
+
+``` bash
+$ cd /path/to/MyProject
+$ touch Podfile
+$ edit Podfile
+```
+
+Edit your Podfile and add Brundlefly:
+
+``` bash
+platform :ios, '8.0'
+pod 'Brundlefly'
+```
+
+Install into your Xcode project:
+
+``` bash
+$ pod install
+```
+
+Open your project in Xcode from the .xcworkspace file (not the usual project file)
+
+``` bash
+$ open MyProject.xcworkspace
 ```
 
 ## Author
