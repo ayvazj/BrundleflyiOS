@@ -5,6 +5,14 @@
 [![License](https://img.shields.io/cocoapods/l/Brundlefly.svg?style=flat)](http://cocoapods.org/pods/Brundlefly)
 [![Platform](https://img.shields.io/cocoapods/p/Brundlefly.svg?style=flat)](http://cocoapods.org/pods/Brundlefly)
 
+A reverse engineered version of the animation library used in Google Photos.  
+This library works by reading a JSON file exported from Adobe After effects
+and creates view and animations as specified.  The animations are done using native views and
+animators.
+
+<img src="docs/device.gif" width="360" height="640">
+
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
