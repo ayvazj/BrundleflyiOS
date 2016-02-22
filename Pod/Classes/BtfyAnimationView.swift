@@ -20,6 +20,8 @@
 * THE SOFTWARE.
 */
 
+import AVFoundation
+
 public class BtfyAnimationView: UIView {
     let kDebug = false // draw bounding boxes and green screens
     
@@ -112,13 +114,22 @@ public class BtfyAnimationView: UIView {
                 (view as? UILabel)?.text = text
             } else {
                 if let backgroundImage = animationGroup.backgroundImage {
-                    if let imagePath = NSBundle.mainBundle().pathForResource("btfy/\(backgroundImage)") {
-                        if (NSFileManager.defaultManager().fileExistsAtPath(imagePath)) {
-                            
-                            let img = UIImage(data: UIImagePNGRepresentation(UIImage(contentsOfFile: imagePath)!)!)
-                            
-                            view = UIImageView(image: img)
-                            view!.contentMode = .ScaleToFill
+                    if backgroundImage.hasSuffix(".mp4") {
+                        if let videoUrl = NSBundle.mainBundle().URLForResource("btfy/\(backgroundImage)", withExtension: "") {
+                            view = BtfyVideoView()
+                            (view as! BtfyVideoView).url = videoUrl
+                        }
+                    }
+                    else {
+                        if let imagePath = NSBundle.mainBundle().pathForResource("btfy/\(backgroundImage)") {
+                            if (NSFileManager.defaultManager().fileExistsAtPath(imagePath)) {
+                                
+                                let img = UIImage(data: UIImagePNGRepresentation(UIImage(contentsOfFile: imagePath)!)!)
+                                
+                                view = UIImageView(image: img)
+                                view!.contentMode = .ScaleToFill
+                                
+                            }
                         }
                     }
                 } else if let shape = animationGroup.shape {
@@ -304,8 +315,8 @@ public class BtfyAnimationView: UIView {
             
             let resolvedRatio = resolveSizeWidth / resolveSizeHeight
             let sizeRatio = size.width / size.height
-
-
+            
+            
             if resolvedRatio > sizeRatio {
                 resolveSizeWidth = round( resolveSizeHeight * sizeRatio)
             } else if (resolvedRatio < sizeRatio) {

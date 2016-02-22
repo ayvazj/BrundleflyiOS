@@ -134,6 +134,7 @@
 		EAC190081C0A08DB00433490 /* BtfyShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FFA1C0A08DB00433490 /* BtfyShape.swift */; };
 		EAC190091C0A08DB00433490 /* BtfySize.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FFB1C0A08DB00433490 /* BtfySize.swift */; };
 		EAC1900A1C0A08DB00433490 /* BtfyStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC18FFC1C0A08DB00433490 /* BtfyStage.swift */; };
+		EACD39021C6FA52600DF1B8F /* BtfyVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD39011C6FA52600DF1B8F /* BtfyVideoView.swift */; };
 		EDD91D0CC316AC322E1607D3749F1C0A /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = E1957A6F490F75CF4F5E65AE6F95B60D /* UIImage+Snapshot.m */; };
 		EE75BFF7CEB96127A821936D107A0183 /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0CE398ED47A90A49FD1D48ED4788C3 /* QCKDSL.m */; };
 		F10FD3129985704FA1610F84FB98EDF5 /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CF27DB4E86CF523DBB7718DD1F8A5D /* Stringers.swift */; };
@@ -381,6 +382,7 @@
 		EAC18FFA1C0A08DB00433490 /* BtfyShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BtfyShape.swift; path = Model/BtfyShape.swift; sourceTree = "<group>"; };
 		EAC18FFB1C0A08DB00433490 /* BtfySize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BtfySize.swift; path = Model/BtfySize.swift; sourceTree = "<group>"; };
 		EAC18FFC1C0A08DB00433490 /* BtfyStage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BtfyStage.swift; path = Model/BtfyStage.swift; sourceTree = "<group>"; };
+		EACD39011C6FA52600DF1B8F /* BtfyVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BtfyVideoView.swift; sourceTree = "<group>"; };
 		EAD96117C39A7B5100135D5FCBDEBAFE /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		F1C4011603B0CD2B441FB644CBE1EDF0 /* Brundlefly-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Brundlefly-prefix.pch"; sourceTree = "<group>"; };
 		F4A7503AAF3BA8144C1103305BE6E6A9 /* Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-umbrella.h"; sourceTree = "<group>"; };
@@ -758,6 +760,7 @@
 				EAC18FDA1C0A08AA00433490 /* BtfyLoader.swift */,
 				EAC18FDB1C0A08AA00433490 /* BtfyRectangleView.swift */,
 				EAC18FDC1C0A08AA00433490 /* BtfyJson.swift */,
+				EACD39011C6FA52600DF1B8F /* BtfyVideoView.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1171,6 +1174,7 @@
 				EAC18FE01C0A08AA00433490 /* BtfyLoader.swift in Sources */,
 				EAC190001C0A08DB00433490 /* BtfyInitialValues.swift in Sources */,
 				EAC18FE11C0A08AA00433490 /* BtfyRectangleView.swift in Sources */,
+				EACD39021C6FA52600DF1B8F /* BtfyVideoView.swift in Sources */,
 				EAC190071C0A08DB00433490 /* BtfyPropertyParserKeyframeScale.swift in Sources */,
 				EAC18FED1C0A08D100433490 /* UIColor+BtfyColor.swift in Sources */,
 				EAC18FE21C0A08AA00433490 /* BtfyJson.swift in Sources */,
