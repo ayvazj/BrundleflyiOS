@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Brundlefly"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "Animation engine for playing Adobe After Effects animations."
 
 # This description is used to generate tags and improve search results.

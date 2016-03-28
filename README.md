@@ -10,7 +10,19 @@ This library works by reading a JSON file exported from Adobe After effects
 and creates view and animations as specified.  The animations are done using native views and
 animators.
 
-<img src="docs/device.gif" width="360" height="640">
+<table>
+  <tr>
+    <td><h4>Animation</h4></td>
+    <td><h4>Tweeter</h4></td>
+    <td><h4>Video</h4></td>
+  </tr>
+  <tr>
+    <td><img src="docs/animation-ios.gif" width="360" height="640"></td>
+    <td><img src="docs/tweeter-ios.gif" width="360" height="640"></td>
+    <td><img src="docs/video-ios.gif" width="360" height="640"></td>
+  </tr>
+</table>
+
 
 
 ## Usage
