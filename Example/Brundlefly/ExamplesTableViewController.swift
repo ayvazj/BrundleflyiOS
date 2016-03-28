@@ -40,6 +40,7 @@ class ExamplesTableViewController : UITableViewController {
     private func setup() -> Void {
         animations.append((display: "animation1", value: "animation1"))
         animations.append((display: "tweeter", value: "tweeter"))
+        animations.append((display: "video", value: "video"))
     }
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
